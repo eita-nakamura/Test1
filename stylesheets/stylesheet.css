@@ -362,7 +362,7 @@ Full-Width Styles
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   body {
     font-size:18px;
   }
