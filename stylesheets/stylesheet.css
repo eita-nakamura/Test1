@@ -364,6 +364,7 @@ Small Device Styles
 
 @media screen and (max-width: 600px) {
   body {
+    zoom: 1.5;
     font-size:18px;
   }
 
