@@ -14,10 +14,6 @@
 		ol.multi-column {float: left; width: 100%; line-height: 10px;}
 		ol.multi-column li {float: left; width: 50%; margin-bottom: 10px;}
 
-body {
-  margin: 10;
-}
-
 .container {
   display: flex;
   height: 80vh;
@@ -25,11 +21,12 @@ body {
 
 .LColumn,
 .main {
+  padding: 10px;
   max-height: 80vh;
 }
 
 .LColumn {
-  overflow: hidden;
+  overflow: auto;
   flex: 1;
   background: #eeffff;
 }
@@ -41,12 +38,8 @@ body {
 .RColumn {
   max-height: 80vh;
   overflow: auto;
-  flex: 3;
+  flex: 1;
   background: #ffeeff;
-}
-
-.box {
-  height: 80vh;
 }
 
 	</style>
@@ -68,7 +61,7 @@ body {
 
 		<section id="main_content" class="inner">
 
-左側のボックス内の説明を読んで進めてください。<strong>最後に右側のボックスの下の送信ボタンを必ず押してください</strong>。
+左側のボックス内の説明を読んで進めてください。<strong>最後に右側のボックス内の下にある送信ボタンを必ず押してください</strong>。
 
 			<div style="height:20px;"></div>
 
@@ -141,12 +134,13 @@ body {
 						<audio id="Audio8B" controls preload="metadata" src="">エラー</audio>
 						<br><br>
 
+						<strong>以上です、ありがとうございました。右のボックス内の下にある送信ボタンを押して終えてください。</strong>
 
 					</div>
 				</div>
 
-				<div>
-					<iframe class="RColumn" src="https://docs.google.com/forms/d/e/1FAIpQLSfuUUQ0goWnxX2SEr9ctjA2GvDsqRRsXnbWLgEzY4-XOVYf3A/viewform?embedded=true" height="100%" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+				<div class="RColumn">
+					<iframe  src="https://docs.google.com/forms/d/e/1FAIpQLSfuUUQ0goWnxX2SEr9ctjA2GvDsqRRsXnbWLgEzY4-XOVYf3A/viewform?embedded=true" height="100%" width="100%" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
 				</div>
 	
 			</div>
