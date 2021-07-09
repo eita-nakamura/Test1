@@ -57,22 +57,22 @@ var X8B = 'Z'+String(order[7])+((orderAB==1)? 'A':'B');
 // document.getElementById("Audio8A").src='https://creevo-music.com/api/static/project_'+String(X7A)+'_instr.mp3';
 // document.getElementById("Audio8B").src='https://creevo-music.com/api/static/project_'+String(X7B)+'_instr.mp3';
 
-document.getElementById("Audio1A").src='Data/mp3/'+String(X1A)+'.mp3';
-document.getElementById("Audio1B").src='Data/mp3/'+String(X1B)+'.mp3';
-document.getElementById("Audio2A").src='Data/mp3/'+String(X2A)+'.mp3';
-document.getElementById("Audio2B").src='Data/mp3/'+String(X2B)+'.mp3';
-document.getElementById("Audio3A").src='Data/mp3/'+String(X3A)+'.mp3';
-document.getElementById("Audio3B").src='Data/mp3/'+String(X3B)+'.mp3';
-document.getElementById("Audio4A").src='Data/mp3/'+String(X4A)+'.mp3';
-document.getElementById("Audio4B").src='Data/mp3/'+String(X4B)+'.mp3';
-document.getElementById("Audio5A").src='Data/mp3/'+String(X5A)+'.mp3';
-document.getElementById("Audio5B").src='Data/mp3/'+String(X5B)+'.mp3';
-document.getElementById("Audio6A").src='Data/mp3/'+String(X6A)+'.mp3';
-document.getElementById("Audio6B").src='Data/mp3/'+String(X6B)+'.mp3';
-document.getElementById("Audio7A").src='Data/mp3/'+String(X7A)+'.mp3';
-document.getElementById("Audio7B").src='Data/mp3/'+String(X7B)+'.mp3';
-document.getElementById("Audio8A").src='Data/mp3/'+String(X8A)+'.mp3';
-document.getElementById("Audio8B").src='Data/mp3/'+String(X8B)+'.mp3';
+document.getElementById("Audio1A").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X1A)+'.mp3';
+document.getElementById("Audio1B").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X1B)+'.mp3';
+document.getElementById("Audio2A").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X2A)+'.mp3';
+document.getElementById("Audio2B").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X2B)+'.mp3';
+document.getElementById("Audio3A").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X3A)+'.mp3';
+document.getElementById("Audio3B").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X3B)+'.mp3';
+document.getElementById("Audio4A").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X4A)+'.mp3';
+document.getElementById("Audio4B").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X4B)+'.mp3';
+document.getElementById("Audio5A").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X5A)+'.mp3';
+document.getElementById("Audio5B").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X5B)+'.mp3';
+document.getElementById("Audio6A").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X6A)+'.mp3';
+document.getElementById("Audio6B").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X6B)+'.mp3';
+document.getElementById("Audio7A").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X7A)+'.mp3';
+document.getElementById("Audio7B").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X7B)+'.mp3';
+document.getElementById("Audio8A").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X8A)+'.mp3';
+document.getElementById("Audio8B").src='https://eita-nakamura.github.io/Test2/Data/mp3/'+String(X8B)+'.mp3';
 
 // document.getElementById("Test").innerHTML=str;
 
